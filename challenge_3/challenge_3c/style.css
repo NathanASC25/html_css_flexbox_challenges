@@ -9,10 +9,23 @@ img {
 
 div div {
 	margin: auto;
-	width: 33%;
 	height: 250px;
+	display: flex;
 }
 
 #big_div {
 	border: 5px solid black;
+	display: flex;
+}
+
+#sub_div1{
+    align-items: flex-start;
+}
+
+#sub_div2{
+    align-items: center;
+}
+
+#sub_div3{
+    align-items: flex-end;   
 }
